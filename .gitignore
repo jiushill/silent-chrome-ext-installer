@@ -1,0 +1,17 @@
+# build artifacts
+/target
+**/*.rs.bk
+Cargo.lock.bak
+
+# IDEs
+.vscode/
+.idea/
+*.iml
+
+# OS junk
+.DS_Store
+Thumbs.db
+
+# Don't commit sample extensions — keep the repo focused on the installer
+/kremlin-ext
+/test-ext
